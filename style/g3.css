@@ -1,8 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Salsa&family=Yarndings+12&display=swap');
 
-*  {
+* {
     font-family: "Salsa", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+.btn-primery{
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 16px;
+    background-color: rgb(53, 70, 43);
+    padding: 20px 25px;
+    cursor: pointer;
+}
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(22, 21, 21);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(8, 6, 6);
+}
+.banner-discription{
+    color: rgb(27, 3, 3);
+}
+.banner img{
+    margin-top: 20px;
+    height: 20%;
+    width: 100%; 
+}
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:960px) and (min-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+main{
+    background-color: rgb(151, 236, 236);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.tems{
+    display: flex;
+    align-items: center;
+}
+.tems-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.tems-content{
+    font: size 2.8rem; 
+}
+.l .do{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+
+}
