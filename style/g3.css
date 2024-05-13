@@ -119,3 +119,11 @@ main{
     font-size: 1rem;
     margin-top: 5px;
 }
+.sponsor-title{
+    text-align: center;
+}
+.img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
